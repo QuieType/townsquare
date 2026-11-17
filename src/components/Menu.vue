@@ -87,12 +87,12 @@
             <em><font-awesome-icon icon="image" /></em>
           </li>
           <li @click="toggleUnofficial">
-            <small>Use Unofficial Art</small>
+            <small>Use Official Art</small>
             <em
               ><font-awesome-icon
                 :icon="[
                   'fas',
-                  grimoire.isArtUnofficial ? 'check-square' : 'square',
+                  grimoire.isArtUnofficial ? 'square' : 'check-square',
                 ]"
             /></em>
           </li>

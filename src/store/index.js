@@ -125,7 +125,7 @@ export default new Vuex.Store({
       isMenuOpen: false,
       isStatic: false,
       isMuted: false,
-      isArtUnofficial: false,
+      isArtUnofficial: true,
       isImageOptIn: false,
       isMockAssignmentsAllowed: false,
       zoom: 0,
